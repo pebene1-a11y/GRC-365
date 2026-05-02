@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>castleinthesky</title>
+<style>
+
+	
+	
+	 #page {
+	width: 1024px;
+    height: 1228px;
+    background: #355B80;
+    margin: 0 auto;
+    position: relative;
+	
+		 
+	} body {
+		background-color:#1C3B5A
+	
+	} h1 {
+        font: 48pt/1.4em 'Serif';
+        text-align: center;
+        margin: 12px 0 0 0;
+        color: #F3D84B;
+        text-shadow: 2px 3px 6px darkgray;
+		
+	} .top-layer {
+    position: absolute; 
+    width: 250px;      
+}
+
+#img1 {
+    position: absolute;
+	top: 680px;
+    right: 0px;
+    animation-name: sheetafall;
+    animation-duration: 4s;
+	animation-delay: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    z-index: 10;
+} 
+	#img2 {
+	position: absolute;
+    bottom: 0;
+    right: 0px;
+	z-index: 5;
+		
+	} #img3 {
+		position: absolute;
+	top: 680px;
+    right: 10px; 
+		width: 20%;
+		z-index: 15;
+		
+	} .banner {
+	display: block;
+    margin: 0 auto;
+	max-height: 95%;
+	max-width: 95%;	
+	margin-bottom: 55px;	
+		
+	} p {
+		font: 16pt/1.4em 'Open Sans';
+		color: aliceblue;
+		text-align:left;
+		max-width: 64ch;
+		margin-left: 3ch;
+		line-height: 2.2;
+		text-indent: 20px;	
+	
+	} @keyframes sheetafall {
+  from {top: 680px;
+	  right: 0px;}
+  to {top: 990px;
+	  right: 0px;}	
+	} .navbar {
+  background-color: transparent;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000; 
+}.dropdown {
+    position: relative;
+    display: inline-block;
+
+
+}.dropbtn {
+    background-color: #051947;
+    color: white;
+    padding: 12px 24px;
+    font-size: 14pt;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+
+}.dropdown-content {
+    display: none;
+    position: absolute;
+	top: 100%; 
+	left: 0; 
+    background-color: white;
+    min-width: 240px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1001;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #051947;
+
+
+}.dropdown-content a {
+    color: #051947;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #eee;
+
+
+}.dropdown-content a:hover {
+    background-color: #092F87;
+    color: white;
+
+
+} .dropdown:hover .dropdown-content {
+    display: block;
+
+
+} .dropdown:hover .dropbtn {
+    background-color: #092F87;
+}
+</style>	
+</head>
+
+<body>
+<div id="page">	
+		<nav class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn">Menu ▼</button>
+        <div class="dropdown-content">
+            <a href="simplehtmlpage.html">Basic Page</a>
+            <a href="rodent.html">Grid Layout Page</a>
+            <a href="portfoliopage.html">Portfolio Page</a>
+            <a href="hex.html">Table page</a>
+            <a href="thepillowshb.html">Responsive Design Page</a>
+            <a href="sheetafallanimation.html">Animation Page</a>
+        </div>
+    </div>
+</nav>
+<img class="top-layer" src="../projectfile/sheeta.png" id="img1" alt="sheetafall"/>
+<img class="top-layer" src="../projectfile/pazu.png" id="img2" alt="pazucatch"/><img class="top-layer" src="../projectfile/cloud.png" id="img3" alt="cloudhide"/>	
+<h1>CASTLE IN THE SKY</h1>
+<img class="banner" src="castleintheskyart.jpg" alt="laputa"/>	
+<p>After plummeting from an airship following a pirate raid, a young girl named Sheeta is saved when her mysterious crystal pendant begins to glow, slowing her descent into a quiet mining town. She is caught by Pazu, an optimistic orphan who dreams of finding Laputa, a legendary lost city in the clouds. Their meeting sparks a high-stakes adventure as they flee from both the persistent Dola gang of air pirates and a cold-blooded government agent named Muska, who seeks to harness the ancient, destructive power Sheeta unknowingly carries. Together, the two children embark on a journey to the sky to discover Sheeta’s true identity and protect the floating kingdom from those who would use it for conquest.</p>
+	
+</div>
+</body>
+</html>

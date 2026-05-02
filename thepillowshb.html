@@ -77,19 +77,32 @@
 	} .label {
 		font: 12pt/1.5em 'Michroma';
 		text-align: center;
-	} .inverted-mode {
-    filter: invert(100%) hue-rotate(180deg);
-}
-.inverted-mode img, 
-.inverted-mode body {
-    filter: invert(0%) !important;
+	}	.inverted-mode #page {
+    background-color: #1a1a1a !important;
+    color: #f0f0f0 !important;         
+    border-color: #444;
 }
 
-.inverted-mode #page {
-    background-color: #1a1a1a;
-    color: white;
-    border-color: #444;
-}     	
+.inverted-mode h1 {
+    color: #F3D84B; 
+    text-shadow: none;
+}
+
+
+.inverted-mode p, 
+.inverted-mode .label {
+    color: #e0e0e0;
+}
+
+.inverted-mode p a {
+    color: #8ab4f8; 
+}
+
+
+.inverted-mode img {
+    filter: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
 	} @media only screen and (max-width: 750px) {
 		h1 {
         font: 64pt/1.4em 'Faster One';

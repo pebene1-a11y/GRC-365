@@ -77,7 +77,19 @@
 	} .label {
 		font: 12pt/1.5em 'Michroma';
 		text-align: center;
-        	
+	} .inverted-mode {
+    filter: invert(100%) hue-rotate(180deg);
+}
+.inverted-mode img, 
+.inverted-mode body {
+    filter: invert(0%) !important;
+}
+
+.inverted-mode #page {
+    background-color: #1a1a1a;
+    color: white;
+    border-color: #444;
+}     	
 	} @media only screen and (max-width: 750px) {
 		h1 {
         font: 64pt/1.4em 'Faster One';
